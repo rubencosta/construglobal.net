@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/*@font-face
+{
+	font-family: Neuropol;
+	src: url('includes/font/n/neuropol_bold.ttf');
+	src:url('includes/font/n/neuropol_bold.eot'); //IE
+}*/
+@font-face {
+    font-family: 'NeuropolBold';
+    src: url(../font/Neuropol/neuropol_bold-webfont.eot);
+    src: url(../font/Neuropol/neuropol_bold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(../font/Neuropol/neuropol_bold-webfont.woff) format('woff'),
+    url(../font/Neuropol/neuropol_bold-webfont.ttf) format('truetype'),
+    url(../font/Neuropol/neuropol_bold-webfont.svg#NeuropolBold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#nav {
+    width: 950px;
+    background-color: #000000;
+    margin: 0px;
+    height: 80px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    opacity: 1;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 40px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #F05323;
+    /*	border-top-width: 5px;
+        border-top-style: double;
+        border-top-color: #F05323;*/
+}
+
+#nav ul li {
+    margin: auto;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    width: auto;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* [disabled]font-weight: bolder; */
+    text-align: left;
+    font-variant: normal;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+#nav ul li a {
+    /*display: block;*/
+    font-family: 'NeuropolBold';
+    text-align: left;
+    padding: 30px 35px 0px 50px;
+    letter-spacing: 0.4em;
+    height: auto;
+    width: 150px;
+    text-decoration: none;
+    /*color: #F60;
+    border: thick solid #F60;*/
+    /*background-color: #F3F3F3;*/
+    vertical-align: bottom;
+    border-radius: 15px;
+    color: #000000;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+#nav ul li a:link, #nav ul li a:visited {
+    color: #999999;
+    text-decoration: none;
+    /* [disabled]text-shadow: 0px 0px 3px #fff; */
+}
+
+#nav ul li a:hover, #nav ul li a:active {
+    color: #F05323;
+    background-image: url(../../images/template/telhado_100.png);
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+
+#nav ul li a.selected {
+    background-image: url(../../images/template/telhado_100.png);
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+
+.reflectBelow {
+    -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+}
+
+#footer a:hover {
+    background-color: #000;
+}

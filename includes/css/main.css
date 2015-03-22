@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    margin: 0 auto;
+    width: 950px;
+    position: relative;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: thick;
+    border-right-width: thick;
+    border-bottom-width: thick;
+    border-left-width: thick;
+    -webkit-box-shadow: 10px 10px 5px #888888; /* Safari and Chrome */
+    -moz-box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #999999;
+}
+
+#header {
+    background-image: url(../../images/template/logo_fixed.png);
+    height: 176px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin: 0px;
+    padding: 0px;
+    width: 950px;
+}
+
+#header a {
+    margin: 0px;
+    padding: 0px;
+    height: 176px;
+    width: 950px;
+}
+
+#center {
+    padding: 0px;
+    background-color: #526370;
+    font-family: Arial;
+    color: #555;
+    font-size: 0.75em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    height: 500px;
+    width: 950px;
+    float: none;
+}
+
+#description {
+    position: relative;
+    background-color: #526370;
+    top: 75px;
+    left: 125px;
+    font-family: Arial;
+    /* [disabled]color: #555; */
+    font-size: 0.75em;
+    /* [disabled]border-top-style: solid; */
+    /* [disabled]border-bottom-style: solid; */
+    /* [disabled]border-left-style: solid; */
+    /* [disabled]border-right-style: solid; */
+    width: 700px;
+    height: 350px;
+    /*background-color: #000;*/
+    margin: 0px;
+    padding: 0px;
+    /* [disabled]border-radius: 15px 0px 15px 0px; */
+    overflow: hidden;
+    /* [disabled]background-color: #000; */
+    background-image: url(../../images/template/center.png);
+    background-repeat: no-repeat;
+}
+
+#description p {
+    text-align: left;
+    font-family: Arial, Elvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    /*text-shadow: white 0.1em 0.1em 0.3em;*/
+}
+
+#description img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contacto {
+    position: relative;
+    top: 75px;
+    left: 125px;
+    font-family: Arial;
+    /* [disabled]color: #555; */
+    font-size: larger;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    width: 700px;
+    height: 350px;
+    /* [disabled]background-color: #000; */
+    margin: 0px;
+    padding: 0px;
+    /* [disabled]border-radius: 15px 0px 15px 0px; */
+    overflow: auto;
+    background-image: url(../../images/template/center.png);
+    background-repeat: no-repeat;
+}
+
+#contacto ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-variant: normal;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#contacto ul li a {
+    color: #FFF;
+}
+
+#footer {
+    padding: 0px;
+    height: 50px;
+    width: 950px;
+    clear: both;
+    float: none;
+    background-color: #F05323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #FFF;
+    text-align: center;
+}
+
+body {
+    background-color: #CCC;
+}
+
+h1 {
+    font-family: 'NeuropolBold';
+    font-size: 24px;
+    font-weight: normal;
+    color: #F05323;
+    letter-spacing: 2pt;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'NeuropolBold';
+    letter-spacing: 7px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.25em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.panel {
+    display: none;
+}
+
+#footer a {
+    font-family: Neuropol;
+    color: #666;
+}
+
+#center .play {
+    background-image: url(../../images/template/play.png);
+    background-position: right;
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    overflow: visible;
+    position: absolute;
+    right: 125px;
+    top: 340px;
+    display: none;
+}
+
+.service_info {
+    position: relative;
+    height: 15px;
+    clear: both;
+    top: 100px;
+    background-image: url(../../images/template/info.png);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+}
+
+.service_info h6 {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
